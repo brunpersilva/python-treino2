@@ -1,2 +1,5 @@
 i = input('Digite algo')
 print('O tipo primitivo é', type(i))
+print('é um numero?', i.isnumeric())
+print('é decimal', i.isdecimal())
+print('É maiuscula?',i.isupper())
