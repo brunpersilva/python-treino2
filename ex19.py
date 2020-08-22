@@ -1,12 +1,4 @@
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-p1 = Person("John", 36)
-
-print(p1.name)
-print(p1.age)from random import shuffle
+from random import shuffle
 a1 = str(input('Qual o primeiro aluno?'))
 a2 = str(input('Qual o segundo?'))
 a3 = str(input("Qual o terceiro?"))
